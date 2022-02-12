@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Lexend+Deca&display=swap" rel="stylesheet">
+
+    <title>Desafio 1 - Blog</title>
+</head>
+<body>
+    
+    <header>
+        <div class="header-container">
+        
+            <div class="header-links">
+                <a href="">Codelândia</a>
+                <a href="">Blog</a>
+            </div>
+
+            <form class="header-search">
+                <img class="header-search" src="img/search.png" alt="Pesquisar no blog"> 
+
+                <input class="header-search" type="text" name="busca" placeholder="Pesquisar no blog...">
+                
+            </form>
+        
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="post">
+            <div class="post-data-heart">
+                <h4 class="post-data">02 de jul, 2021</h4>
+                <img class="post-heart" src="img/heart-solid.svg">
+            </div>
+            <h1 class="post-title">Agora é oficial: o Windows 11 está vindo</h1>
+            <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.</p>
+        </section>
+
+        <section class="post">
+            <div class="post-data-heart">
+                <h4 class="post-data">02 de jul, 2021</h4>
+                <img class="post-heart" src="img/heart-solid.svg">
+            </div>
+            <h1 class="post-title">Tim Berners-Lee vai leiloar código-fonte da web</h1>
+            <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
+        </section>
+
+        <section class="post">
+            <div class="post-data-heart">
+                <h4 class="post-data">02 de jul, 2021</h4>
+                <img class="post-heart" src="img/heart-solid.svg">
+            </div>
+            <h1 class="post-title"> John McAfee, criador do antivírus McAfee, morre</h1>
+            <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est.</p>
+        </section>
+
+        <section class="post">
+            <div class="post-data-heart">
+                <h4 class="post-data">02 de jul, 2021</h4>
+                <img class="post-heart" src="img/heart-solid.svg">
+            </div>
+            <h1 class="post-title">Tem Firefox novo no pedaço e você vai querer migrar</h1>
+            <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: true
+        });
+
+        ScrollReveal().reveal('.post', { delay: 200 });
+        ScrollReveal().reveal('.post-date', { delay: 400 });
+        ScrollReveal().reveal('.post-title', { delay: 500 });
+        ScrollReveal().reveal('.post-content', { delay: 600 });
+</script>
+
+</body>
+</html>
