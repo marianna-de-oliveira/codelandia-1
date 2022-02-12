@@ -110,14 +110,6 @@ input::placeholder {
     font-size: 1em;
     line-height: 20px;
     color: var(--text);
-    position: relative;
-}
-
-.post-heart{
-    color: #574AE8;
-    filter: none;
-    position: absolute;
-    left: 900px;
 }
 
 .post-title {
