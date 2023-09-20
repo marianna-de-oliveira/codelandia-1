@@ -126,7 +126,7 @@ header {
   justify-content: space-between;
 }
 
-.post-data-heart i {
+.fa-heart {
   color: var(--blue);
   font-size: 2rem;
 }
