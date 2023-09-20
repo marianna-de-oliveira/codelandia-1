@@ -1,4 +1,4 @@
-# Desafio 1 - Codelandia, por Iuri Silva
+# Desafio 1 - Codelandia
 
 Nesse desafio, foi proposto que a comunidade reproduzisse em código um blog, de forma responsiva, em HTML, CSS e com uma animação em JavaScript
 
